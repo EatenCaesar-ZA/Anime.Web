@@ -20,18 +20,41 @@
     background-size: cover;
 }
 
+.container4 h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 50px;
+    color: red;
+    background-color: rgb(4, 17, 22);
+    font-weight: bold;
+    font-style: italic
+}
+
+.container4 p{
+    text-align: center;
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    font-size: 20px;
+    color: rgb(4, 17, 22);
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(158, 20, 10);
+    background-size: cover;
+}
+
 #menu-bar{
 width: 100%;
 height: 40px;
 background-color: red;
 padding-top: 20px;
+padding-bottom: 20px;
 text-align: center;
+position: center;
 }
 
 #menu-bar a{
 text-decoration: none;
 font-family: 'helvetica neue', helvetica, arial, sans-serif;
-font-size: 20px;
+font-size: 30px;
 color: black;
 font-weight: bold;
 font-style: italic;
@@ -43,7 +66,7 @@ color: red;
 }
 
 .container{
-    margin:100px 0 0 200px;
+    margin:100px 0 0 400px;
     width: 50%;
     height: 600px;
     display:flex;
@@ -65,7 +88,7 @@ color: red;
 }
 
 .container3{
-    margin:120px 0 0 220px;
+    margin:100px 0 0 200px;
     width: 80%;
     height: 600px;
     display:flex;
