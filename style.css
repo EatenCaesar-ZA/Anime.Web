@@ -1,3 +1,25 @@
+.container2 h1{
+    text-align: center;
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    font-size: 50px;
+    color: red;
+    background-color: rgb(4, 17, 22);
+    font-weight: bold;
+    font-style: italic;
+    text-wrap: none;
+}
+
+.container2 p{
+    text-align: center;
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    font-size: 20px;
+    color: rgb(4, 17, 22);
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(158, 20, 10);
+    background-size: cover;
+}
+
 #menu-bar{
 width: 100%;
 height: 40px;
@@ -26,8 +48,7 @@ color: red;
     height: 600px;
     display:flex;
     justify-content: center;
-    gap: 10px;
-    
+    gap: 10px;    
 }
 
 .container img{
@@ -41,4 +62,26 @@ color: red;
 
 .container img:hover{
   width: 80%;  
+}
+
+.container3{
+    margin:120px 0 0 220px;
+    width: 80%;
+    height: 600px;
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container3 img{
+    width: 100px;
+    height: 120%;
+    object-fit: cover;
+    border-radius: 100px;
+    border:2px solid black;
+    transition: ease-in-out 0.5;
+}
+
+.container3 img:hover{
+  width: 100%;  
 }
